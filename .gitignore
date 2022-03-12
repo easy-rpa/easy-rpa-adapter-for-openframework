@@ -1,0 +1,19 @@
+target
+bin
+object_storage
+tokens
+.metadata
+.settings
+logs
+.classpath
+.project
+*.log
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
