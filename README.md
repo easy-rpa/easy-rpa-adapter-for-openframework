@@ -14,6 +14,6 @@ In order to use this adapter you need simply add it as a dependency in your Mave
 <dependency>
     <groupId>eu.easyrpa</groupId>
     <artifactId>easy-rpa-adapter-for-openframework</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.1</version>
 </dependency>
 ```
