@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.easyrpa</groupId>
     <artifactId>easy-rpa-adapter-for-openframework</artifactId>
-    <version>2.7.0</version>
+    <version>2.7.1</version>
     <packaging>jar</packaging>
 
     <name>EasyRPA Adapter for EasyRPA Open Framework</name>
@@ -59,20 +59,19 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.scm.id>github</project.scm.id>
         <java.version>1.8</java.version>
-        <openframework.version>1.0.0</openframework.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>eu.ibagroup</groupId>
             <artifactId>easy-rpa-engine</artifactId>
-            <version>${project.version}</version>
+            <version>2.7.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>eu.easyrpa</groupId>
             <artifactId>easy-rpa-openframework-core</artifactId>
-            <version>${openframework.version}</version>
+            <version>1.1.0</version>
         </dependency>
     </dependencies>
 
