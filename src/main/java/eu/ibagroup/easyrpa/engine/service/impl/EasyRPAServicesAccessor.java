@@ -51,6 +51,11 @@ public class EasyRPAServicesAccessor implements RPAServicesAccessor {
         });
     }
 
+    @Override
+    public byte[] evaluateTemplate(String templateName, Map<String, ?> params) {
+        return notificationService.evaluateTemplate(templateName, params);
+    }
+
     private void prepareTempFilesAndRun(List<? extends FileData> files, Consumer<List<File>> action) {
         Path tempDir = null;
         try {

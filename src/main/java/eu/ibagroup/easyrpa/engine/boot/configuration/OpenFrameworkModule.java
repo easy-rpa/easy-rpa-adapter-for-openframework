@@ -11,7 +11,7 @@ import org.codejargon.feather.Provides;
 import javax.inject.Singleton;
 
 @RunConfiguration
-public class AdditionConfigurationModule implements ConfigurationModule {
+public class OpenFrameworkModule implements ConfigurationModule {
 
     @Provides
     @Singleton
