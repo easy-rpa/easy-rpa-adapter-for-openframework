@@ -12,6 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
@@ -72,7 +73,7 @@ public class EasyRPAServicesAccessor implements RPAServicesAccessor {
         } finally {
             try {
                 if (tempDir != null) {
-                    Files.delete(tempDir);
+                    Files.walk(tempDir).sorted(Comparator.reverseOrder()).map(Path::toFile).forEach(File::delete);
                 }
             } catch (Exception e) {
                 //do nothing
