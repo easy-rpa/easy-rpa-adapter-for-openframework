@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.easyrpa</groupId>
     <artifactId>easy-rpa-adapter-for-openframework</artifactId>
-    <version>3.2.0-SNAPSHOT</version>
+    <version>3.3.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>EasyRPA Adapter for EasyRPA Open Framework</name>
@@ -65,7 +65,7 @@
         <dependency>
             <groupId>eu.ibagroup</groupId>
             <artifactId>easy-rpa-engine</artifactId>
-            <version>3.2.0-SNAPSHOT</version>
+            <version>3.3.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
